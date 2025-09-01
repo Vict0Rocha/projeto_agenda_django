@@ -109,7 +109,7 @@ LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'America/Cuiaba'
 
-USE_I18N = True
+USE_I18N = False
 
 USE_TZ = True
 
