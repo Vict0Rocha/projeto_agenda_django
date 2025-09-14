@@ -1,10 +1,8 @@
-from typing import Any, Mapping
+from . import models
 from django import forms
 from django.core.exceptions import ValidationError
-from django.core.files.base import File
-from django.db.models.base import Model
-from django.forms.utils import ErrorList
-from . import models
+from django.contrib.auth.forms import UserCreationForm
+
 
 class ContactForm(forms.ModelForm):
 
@@ -52,3 +50,7 @@ class ContactForm(forms.ModelForm):
         )
 
         return first_name
+    
+
+class RegisterForm(UserCreationForm):
+    ...
