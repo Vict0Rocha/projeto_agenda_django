@@ -57,10 +57,12 @@ class RegisterForm(UserCreationForm):
     first_name = forms.CharField(
         required=True,
         min_length=3,
+        label='Primeiro nome',
     )
     last_name = forms.CharField(
         required=True,
         min_length=3,
+        label='Segundo nome',
     )
     email = forms.EmailField()
 
