@@ -37,4 +37,6 @@ python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
 Para rodar o projeto.
-
+```python
+python manage.py runserver
+```
