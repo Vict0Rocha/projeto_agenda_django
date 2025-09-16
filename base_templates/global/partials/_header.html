@@ -16,14 +16,14 @@
                     <a href="{% url "contact:user_update" %}" class="menu-link">Perfil</a>
                 </li>
                 <li class="menu-item">
-                    <a href="{% url "contact:logout" %}" class="menu-link">Deslogar</a>
+                    <a href="{% url "contact:logout" %}" class="menu-link">Sair</a>
                 </li>
             {% else %}
                 <li class="menu-item">
-                    <a href="{% url "contact:login" %}" class="menu-link">Login</a>
+                    <a href="{% url "contact:login" %}" class="menu-link">Entrar</a>
                 </li>
                 <li class="menu-item">
-                    <a href="{% url "contact:register" %}" class="menu-link">Registrar</a>
+                    <a href="{% url "contact:register" %}" class="menu-link">Cadastrar</a>
                 </li>                
             {% endif %}
         </ul>

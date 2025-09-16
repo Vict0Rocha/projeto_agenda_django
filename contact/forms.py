@@ -43,15 +43,6 @@ class ContactForm(forms.ModelForm):
     def clean_first_name(self):
         first_name = self.cleaned_data.get('first_name')
 
-        if first_name == 'ABC':
-           self.add_error(
-            'first_name',
-            ValidationError(
-                'ADD ERROR',
-                code='invalid'
-            )
-        )
-
         return first_name
     
 
@@ -83,6 +74,7 @@ class RegisterUpdateForm(forms.ModelForm):
         max_length=30,
         required=True,
         help_text='Required.',
+        label='Primeiro nome',
         error_messages={
             'min_length': 'Please, add more than 2 letters.'
         }
@@ -91,11 +83,12 @@ class RegisterUpdateForm(forms.ModelForm):
         min_length=2,
         max_length=30,
         required=True,
+        label='Segundo nome',
         help_text='Required.'
     )
 
     password1 = forms.CharField(
-        label="Password",
+        label="Senha",
         strip=False,
         widget=forms.PasswordInput(attrs={"autocomplete": "new-password"}),
         help_text=password_validation.password_validators_help_text_html(),
@@ -103,10 +96,10 @@ class RegisterUpdateForm(forms.ModelForm):
     )
 
     password2 = forms.CharField(
-        label="Password 2",
+        label="Confirmar senha",
         strip=False,
         widget=forms.PasswordInput(attrs={"autocomplete": "new-password"}),
-        help_text='Use the same password as before.',
+        help_text='Use a mesma senha de antes.',
         required=False,
     )
 

@@ -8,7 +8,7 @@ import django
 from django.conf import settings
 
 DJANGO_BASE_DIR = Path(__file__).parent.parent
-NUMBER_OF_OBJECTS = 1000
+NUMBER_OF_OBJECTS = 200
 
 sys.path.append(str(DJANGO_BASE_DIR))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'project.settings'
@@ -21,6 +21,7 @@ if __name__ == '__main__':
 
     from contact.models import Category, Contact
 
+    # Atenção aqui! - Vai deletar toda a base de dados.
     # Contact.objects.all().delete()
     # Category.objects.all().delete()
 
