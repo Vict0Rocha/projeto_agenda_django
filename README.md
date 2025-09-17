@@ -3,12 +3,12 @@
 Este repositório contém uma aplicação de Agenda Telefônica desenvolvida com o __framework Django.__
 O projeto vai além de um simples CRUD, oferece funcionalidades como...
 
-* 👤 Autenticação de usuários – Criação de conta, login e logout
-* 📞 Gerenciamento de contatos – Criar, editar, excluir e listar contatos
-* 🏷️ Categorias – Organize contatos por categorias personalizadas
-* 🖼️ Upload de foto – Salve imagens para cada contato
-* 🔍 Busca e filtros – Localize contatos
-* ✅ Validação de dados – Garantia de consistência nas informações
+*  Autenticação de usuários – Criação de conta, login e logout
+*  Gerenciamento de contatos – Criar, editar, excluir e listar contatos
+*  Categorias – Organize contatos por categorias personalizadas
+*  Upload de foto – Salve imagens para cada contato
+*  Busca e filtros – Localize contatos
+*  Validação de dados – Garantia de consistência nas informações
 
 ---
 
@@ -23,7 +23,7 @@ O projeto vai além de um simples CRUD, oferece funcionalidades como...
 
 ## 📂 Estrutura do projeto
 
-```csharp
+```bash
 projeto_agenda_django/
 │
 ├── base_static/                 # Arquivos estáticos (CSS)
