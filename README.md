@@ -102,6 +102,8 @@ python manage.py createsuperuser
 
 ## 🖼️ Demonstração
 
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/74bea5ed-a2d3-4cda-932b-30db6f5b38ed" />
+
 
 ---
 
