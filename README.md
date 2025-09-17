@@ -112,10 +112,6 @@ Este projeto está licenciado sob a licença MIT – veja o arquivo LICENSE
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por [Victor Cordeiro](https://portfolio-victor-cordeiro.vercel.app/) 
-
-📧 [ ]
-
-🔗 [ ]
