@@ -35,8 +35,7 @@ projeto_agenda_django/
 │   ├── models.py                # Modelos: Contact, Category
 │   ├── views/                   # Views organizadas em múltiplos arquivos
 │   │   ├── __init__.py          # Import central de todas as views
-│   │   └── user_forms.py        # Formulários de registro/edição de usuário
-│   ├── urls.py                  # Rotas da aplicação
+|   |
 │   └── templates/contact/       # Templates específicos da app
 │
 ├── utils/                       # Scripts auxiliares
@@ -45,9 +44,6 @@ projeto_agenda_django/
 ├── media/                       # Pasta para upload de imagens de contatos
 │
 ├── project/                     # Configurações do projeto Django
-│   ├── settings.py              # Configurações globais (templates, static, media)
-│   ├── urls.py                  # Rotas principais
-│   └── wsgi.py
 │
 ├── manage.py                    # Comando principal do Django
 └── requirements.txt             # Dependências do projeto
