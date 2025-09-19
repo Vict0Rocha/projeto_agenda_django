@@ -35,7 +35,7 @@ projeto_agenda_django/
 │   ├── models.py                # Modelos: Contact, Category
 │   ├── views/                   # Views organizadas em múltiplos arquivos
 │   │   ├── __init__.py          # Import central de todas as views
-|   |
+│   │
 │   └── templates/contact/       # Templates específicos da app
 │
 ├── utils/                       # Scripts auxiliares
